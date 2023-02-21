@@ -1,0 +1,30 @@
+.experience
+{
+    color: #e0e0ff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.experience .header 
+{
+    display: flex;
+    align-items: center;
+}
+.experience .header h1 
+{
+    font-weight: 300;
+}
+.experience .header span 
+{
+    color: #890089;
+}
+
+.experience .header .line 
+{
+
+    flex-grow: 1;
+    height: 1px;
+    background-color: #890089;
+    margin-left: 1rem;
+}

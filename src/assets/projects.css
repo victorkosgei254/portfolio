@@ -1,0 +1,32 @@
+.projects 
+{
+    color: #e0e0ff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.projects .header 
+{
+    display: flex;
+    align-items: center;
+}
+
+.projects .header h1 
+{
+    font-weight: 300;
+
+}
+
+.projects .header span 
+{
+    color: #890089;
+}
+
+.projects .header .line 
+{
+    background-color: #890089;
+    height: 1px;
+    flex-grow: 1;
+    margin-left: 1rem;
+}

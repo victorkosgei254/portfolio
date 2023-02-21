@@ -1,0 +1,32 @@
+.social-links
+{
+    color: #e0e0ff;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+}
+
+.social-links .links 
+{
+    position: fixed;
+    top:40vh;
+}
+.social-links .links .line 
+{
+    background-color: #890089;
+    width: 1px;
+    height: 100vh;
+    margin-top: 2rem;
+}
+.social-links .links i 
+{
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.social-links .links i:hover 
+{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #890089;
+}

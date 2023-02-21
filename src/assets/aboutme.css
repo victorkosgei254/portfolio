@@ -1,0 +1,30 @@
+.about-me 
+{
+    color: #e0e0ff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.about-me .heading 
+{
+    display: flex;
+}
+.about-me .heading  h1 
+{
+    font-weight: 300;
+}
+.about-me  .line 
+{
+    background-color: #890089;
+    flex-grow: 1;
+    height: 1px;
+    align-self: center;
+    margin-left: 1rem;
+}
+.about-me .heading span 
+{
+    color:#890089;
+    font-weight: 400;
+}

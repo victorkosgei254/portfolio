@@ -1,0 +1,27 @@
+.dashboard
+{
+    line-height: 1.5;
+    height: 100vh;
+    color: #e0e0ff;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.dashboard .intro 
+{
+    display: flex;
+
+}
+.dashboard .intro h1 
+{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.dashboard .caption h1 
+{
+    font-size: 2rem;
+    font-weight: 300;
+}

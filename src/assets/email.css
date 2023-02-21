@@ -1,0 +1,23 @@
+.email 
+{
+    color: #e0e0ff;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: start;
+}
+.email .container p 
+{
+    transform: rotate(90deg);
+    margin-right: 2rem;
+    position: fixed;
+    top: 50vh;
+    left:90vw;
+}
+.email .line 
+{
+    height: 100vh;
+    background-color: #e0e0ff;
+    width: 2px;
+    margin-right: 1rem;
+}
