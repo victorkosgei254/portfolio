@@ -1,4 +1,3 @@
-import { Route,Routes } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import "./assets/app.css"
 
@@ -10,6 +9,7 @@ import Projects from "./pages/Projects"
 import SocialLinks from "./pages/SocialLinks"
 import Email from "./pages/Email"
 import Footer from "./pages/Footer"
+import TechStack from "./pages/TechStack"
 function App() {
     return (
         <main>
@@ -23,6 +23,7 @@ function App() {
                     <div className="contents">
                         <Dashboard/>
                         <AboutMe />
+                        <TechStack/>
                         <Experience/>
                         <Projects/>
                     </div>
